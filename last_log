@@ -1,0 +1,285 @@
+Starting recovery on Thu Oct 16 02:33:21 2014
+
+[initialize ui and event]
+pixel format -> GGL_PIXEL_FORMAT_RGB_565
+framebuffer: fd 4 (320 x 480)
+
+[collecting table information]
+recovery filesystem table
+=========================
+  0 '/tmp' 'ramdisk' '(null)' '(null)' 0
+  1 '/boot' 'emmc' '/dev/block/mmcblk0p8' '(null)' 0
+  2 '/cache' 'ext4' '/dev/block/mmcblk0p17' '(null)' 0
+  3 '/data' 'ext4' '/dev/block/mmcblk0p18' '(null)' -16384
+  4 '/misc' 'emmc' '/dev/block/mmcblk0p21' '(null)' 0
+  5 '/recovery' 'emmc' '/dev/block/mmcblk0p12' '(null)' 0
+  6 '/sdcard' 'vfat' '/dev/block/mmcblk1p1' '/dev/block/mmcblk1' 0
+  7 '/system' 'ext4' '/dev/block/mmcblk0p16' '(null)' 0
+  8 '/persist' 'ext4' '/dev/block/mmcblk0p11' '(null)' 0
+  9 '/efs' 'ext4' '/dev/block/mmcblk0p19' '(null)' 0
+  10 '/modem' 'ext4' '/dev/block/mmcblk0p3' '(null)' 0
+  11 '/hidden' 'ext4' '/dev/block/mmcblk0p22' '(null)' 0
+  12 '/param' 'ext4' '/dev/block/mmcblk0p13' '(null)' 0
+
+
+[initialize init-recovery]
+/efs sucessfully mounted
+error: get_salse_code: open failed '/efs/imei/mps_code.dat' (errno 2 : No such file or directory)
+/efs sucessfully unmounted
+
+#mount /system 
+stat() of /dev/block/mmcblk0p16 succeeded on try 1
+/system sucessfully mounted
+
+#unmount /cache 
+/cache sucessfully unmounted
+trace: get_devnode_from_recovery: /cache
+
+#exec -f /system/bin/e2fsck -v -y /dev/block/mmcblk0p17 
+e2fsck 1.41.11 (14-Mar-2010)
+/dev/block/mmcblk0p17: clean, 16/12800 files, 1873/51200 blocks
+
+#mount /data 
+stat() of /dev/block/mmcblk0p18 succeeded on try 1
+/data sucessfully mounted
+
+#fcut --limited-file-size=64k -f /data/log/recovery_log.txt /tmp/recovery_backup.txt 
+/system sucessfully unmounted
+/data sucessfully unmounted
+running init-recovery time : 0.152s
+
+[collecting command]
+stat() of /dev/block/mmcblk0p17 succeeded on try 1
+I:can't open file '/cache/recovery/command' : No such file or directory 
+Command: "/sbin/recovery"
+previous_runs = 0
+send_intent = (null)
+update_package = (null)
+att_fota_update = 0
+tmo_fota_update = 0
+wipe_data = 0, wipe_cache = 0,wipe_sdcard = 0,delete_data = 0
+show_ui_text = 0
+update_factory_csc = 0,update_home_csc = 0  
+carry_out = (null)
+report_result_without_prompt = 0, update_bootloader = 0
+
+
+[property list]
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.build.id=IMM76D
+ro.build.display.id=IMM76D.S738CWYAMC1
+ro.build.version.incremental=S738CWYAMC1
+ro.build.version.sdk=15
+ro.build.version.codename=REL
+ro.build.version.release=4.0.4
+ro.build.date=Mon Mar  4 19:26:13 KST 2013
+ro.build.date.utc=1362392773
+ro.build.type=user
+ro.build.user=se.infra
+ro.build.host=SEP-127
+ro.build.tags=release-keys
+ro.product.model=SCH-S738C
+ro.product.brand=samsung
+ro.product.name=amazing3gtrf
+ro.product.device=amazing3gtrf
+ro.product.board=7x27
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=samsung
+ro.product.locale.language=en
+ro.product.locale.region=US
+ro.wifi.channels=
+ro.board.platform=msm7627a
+ro.build.product=amazing3gtrf
+ro.build.description=amazing3gtrf-user 4.0.4 IMM76D S738CWYAMC1 release-keys
+ro.build.fingerprint=samsung/amazing3gtrf/amazing3gtrf:4.0.4/IMM76D/S738CWYAMC1:user/release-keys
+ro.build.characteristics=default
+ro.build.PDA=S738CWYAMC1
+ro.build.hidden_ver=S738CWYAMC1
+ro.build.changelist=1207620
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+DEVICE_PROVISIONED=1
+debug.sf.hw=1
+debug.composition.7x27A.type=mdp
+debug.composition.7x25A.type=mdp
+dalvik.vm.heapsize=128m
+rild.libpath=/system/lib/libsec-ril-cdma.so
+rild.libargs=-d /dev/ttyS0
+persist.cne.UseCne=none
+persist.cne.bat.range.low.med=30
+persist.cne.bat.range.med.high=60
+persist.cne.loc.policy.op=/system/etc/OperatorPolicy.xml
+persist.cne.loc.policy.user=/system/etc/UserPolicy.xml
+persist.cne.bwbased.rat.sel=false
+persist.cne.snsr.based.rat.mgt=false
+persist.cne.bat.based.rat.mgt=false
+persist.cne.rat.acq.time.out=30000
+persist.cne.rat.acq.retry.tout=0
+persist.cne.fmc.mode=false
+persist.cne.fmc.init.time.out=30
+persist.cne.fmc.comm.time.out=130
+persist.cne.fmc.retry=false
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=false
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+ro.opengles.version=131072
+ro.lcd_brightness=148
+persist.timed.enable=true
+ro.kernel.qemu=0
+ro.use_data_netmgrd=true
+persist.data.ds_fmc_app.mode=0
+persist.ims.regmanager.mode=0
+ro.bluetooth.request.master=true
+ro.qualcomm.bluetooth.ftp=true
+ro.qualcomm.bluetooth.sap=true
+ro.bluetooth.remote.autoconnect=true
+persist.sys.strictmode.visual=false
+persist.omh.enabled=1
+ro.config.ehrpd=true
+ro.qualcomm.cabl=0
+ro.fm.analogpath.supported=true
+ro.fm.transmitter=false
+ro.fm.mulinst.recording.support=false
+ro.hw_plat=7x27a
+ro.emmc.sdcard.partition=18
+ro.screen.layout=normal
+debug.enabletr=false
+ro.staticwallpaper.pixelformat=RGB_565
+debug.camcorder.disablemeta=0
+persist.fuse_sdcard=false
+debug.camera.landscape=true
+ro.max.fling_velocity=4000
+ro.cdma.otaspnumschema=SELC,3,00,07,80,87,88,99
+ro.cdma.operator.numeric=310000
+ro.cdma.operator.alpha=TracFone
+dalvik.vm.heapstartsize=5m
+dalvik.vm.heapgrowthlimit=36m
+keyguard.no_require_sim=true
+ro.com.android.dataroaming=false
+ro.com.android.dateformat=MM-dd-yyyy
+dev.sfbootcomplete=0
+ro.vendor.extension_library=/system/lib/libqc-opt.so
+ro.error.receiver.default=com.samsung.receiver.error
+ro.config.alarm_alert=Good_Morning.ogg
+ro.config.ringtone=S_Over_the_horizon.ogg
+ro.config.notification_sound=S_Whistle.ogg
+ro.monkey=0
+ro.setupwizard.mode=OPTIONAL
+ro.com.google.apphider=off
+ro.com.google.clientidbase=android-samsung
+ro.com.google.clientidbase.ms=android-americamovil-us
+ro.com.google.clientidbase.am=android-americamovil-us
+ro.com.google.clientidbase.yt=android-samsung
+ro.com.google.clientidbase.gmm=android-samsung
+ro.com.google.gmsversion=4.0_r7
+net.bt.name=Android
+net.change=net.bt.name
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+ro.factorytest=0
+ro.serialno=32270f86
+ro.emmc_checksum=3
+ro.debug_level=0x4f4c
+ro.bootmode=unknown
+ro.baseband=msm
+ro.carrier=unknown
+ro.bootloader=S738CWYAMC1
+ro.hardware=qcom
+ro.revision=0
+ro.emmc=1
+init.svc.recovery=running
+
+stat() of /dev/block/mmcblk0p19 succeeded on try 1
+No command specified.
+
+[installing multi-csc]
+/efs sucessfully mounted
+error: get_salse_code: open failed '/efs/imei/mps_code.dat' (errno 2 : No such file or directory)
+/efs sucessfully unmounted
+
+#echo 
+
+#echo -- Appling Multi-CSC... 
+
+#mount /system 
+stat() of /dev/block/mmcblk0p16 succeeded on try 1
+/system sucessfully mounted
+
+#echo Applied the CSC-code : unknown 
+
+#cp -y -f -r -v /system/csc/common / 
+trace: __out_return: __scan_cp_dir :: cannot get src '/system/csc/common'  (No such file or directory)
+
+#unmount /system 
+/system sucessfully unmounted
+
+#mount /system 
+stat() of /dev/block/mmcblk0p16 succeeded on try 1
+/system sucessfully mounted
+
+#cmp -r /system/csc/common / 
+trace: __out_return: __scan_cmp_dir :: Can't open dir '/system/csc/common' .. skip (No such file or directory)
+
+#cp -y -f -r -v /system/csc/unknown / 
+trace: __out_return: __scan_cp_dir :: cannot get src '/system/csc/unknown'  (No such file or directory)
+
+#unmount /system 
+/system sucessfully unmounted
+
+#mount /system 
+stat() of /dev/block/mmcblk0p16 succeeded on try 1
+/system sucessfully mounted
+
+#cmp -r /system/csc/unknown / 
+trace: __out_return: __scan_cmp_dir :: Can't open dir '/system/csc/unknown' .. skip (No such file or directory)
+
+#echo Successfully applied multi-CSC. 
+/system sucessfully unmounted
+running multi-csc time : 0.274s
+
+[installing post-recovery]
+/efs sucessfully mounted
+error: get_salse_code: open failed '/efs/imei/mps_code.dat' (errno 2 : No such file or directory)
+/efs sucessfully unmounted
+
+#mount /data 
+stat() of /dev/block/mmcblk0p18 succeeded on try 1
+/data sucessfully mounted
+
+#mkdir system log 0775 /data/log 
+
+#cp -y -f -v /tmp/recovery_backup.txt /data/log/recovery_log.txt 
+/tmp/recovery_backup.txt -> /data/log/recovery_log.txt (49076 bytes) 
+transferred in writed time : 0.000s closed time : 0.030s progressed with 4096.00M byte/sec
+src : -rw-rw-r-- root     root        49076 2014-10-16 02:33 recovery_backup.txt
+dst : -rw-rw-r-- root     root        49076 2014-10-16 02:33 recovery_log.txt
+
+/data sucessfully unmounted
+running post-recovery time : 0.149s
+copy_log_files_to_data :: create log file
+stat() of /dev/block/mmcblk0p18 succeeded on try 1
+copy_log_file2 :: create recovery log file '/data/log/recovery_log.txt' 
+copy_log_file2 :: create recovery log file '/data/log/recovery_last_kernel_log.txt' 
+copy_kernel_file :: create kernel log file '/data/log/recovery_kernel_log.txt' 
+stat() of /dev/block/mmcblk0p16 succeeded on try 1
+copy_log_file :: create recovery log file '/cache/recovery/log' 
+copy_log_file :: create recovery log file '/cache/recovery/last_log' 
+copy_log_file :: create recovery log file '/cache/recovery/last_install' 
+key press -> key (116), visible(1)
+clear_param : open '/dev/block/mmcblk0p13'
+copy_log_file :: create recovery log file '/cache/recovery/log' 
+stat() of /dev/block/mmcblk0p17 succeeded on try 1
+copy_log_file :: create recovery log file '/cache/recovery/last_log' 
