@@ -1,0 +1,14 @@
+rootfs / rootfs ro,relatime 0 0
+tmpfs /dev tmpfs rw,nosuid,relatime,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,mode=600 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+none /acct cgroup rw,relatime,cpuacct 0 0
+tmpfs /mnt/asec tmpfs rw,relatime,mode=755,gid=1000 0 0
+tmpfs /mnt/obb tmpfs rw,relatime,mode=755,gid=1000 0 0
+none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+/dev/block/mmcblk0p16 /system ext4 ro,relatime,user_xattr,barrier=1,data=ordered 0 0
+/dev/block/mmcblk0p18 /data ext4 rw,nosuid,nodev,relatime,user_xattr,barrier=1,data=ordered,noauto_da_alloc,discard 0 0
+/dev/block/mmcblk0p17 /cache ext4 rw,nosuid,nodev,relatime,user_xattr,barrier=1,data=ordered 0 0
+/dev/block/mmcblk0p19 /efs ext4 rw,nosuid,nodev,relatime,user_xattr,barrier=1,data=ordered 0 0
+/dev/fuse /mnt/sdcard fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
