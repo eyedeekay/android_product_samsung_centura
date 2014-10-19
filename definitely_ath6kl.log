@@ -1,0 +1,673 @@
+<6>[ 6569.557329] active wake lock ath6kl_suspend_wl, time left 94
+<7>[ 6569.891087] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6569.891144] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6569.891196] ath6kl: wmi tx id 5 len 64 flag 0
+<6>[ 6571.500706] wake lock ath6kl_suspend_wl, expired
+<7>[ 6571.542679] ath6kl: sdio suspend pm_caps 0x3
+<7>[ 6571.542716] ath6kl: ath6kl_cfg80211_suspend(): mode = 2
+<7>[ 6571.542744] ath6kl: wow mode suspend
+<7>[ 6571.542799] ath6kl: wmi tx id 61481 len 1 flag 0
+<7>[ 6571.543181] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6571.543227] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6571.543266] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6571.543304] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6571.543344] ath6kl: wmi tx id 69 len 15 flag 0
+<7>[ 6571.543386] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6571.543424] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6571.543464] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6571.543504] ath6kl: wmi tx id 11 len 4 flag 0
+<7>[ 6571.543542] ath6kl: wmi tx id 12 len 4 flag 0
+<7>[ 6571.543582] ath6kl: wmi tx id 8 len 20 flag 0
+<7>[ 6571.543624] ath6kl: wmi tx id 61463 len 8 flag 0
+<7>[ 6571.543664] ath6kl: ath6kl_wmi_powermode_cmd() pwr_mode = 1
+<7>[ 6571.543697] ath6kl: wmi tx id 18 len 1 flag 0
+<7>[ 6571.543737] ath6kl: wmi tx id 67 len 10 flag 0
+<7>[ 6571.543794] ath6kl: wmi tx id 66 len 8 flag 0
+<7>[ 6571.570722] ath6kl: ath6kl_check_wow_status() received IRQ while we are WoW suspending
+<7>[ 6571.570776] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6571.570806] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6571.570834] ath6kl: wmi event dbglog len 1492
+<7>[ 6571.573624] ath6kl: ath6kl_check_wow_status() received IRQ while we are WoW suspending
+<7>[ 6571.573669] ath6kl: wmi rx id 4167 len 0
+<7>[ 6571.573699] ath6kl: WMI_SET_HOST_SLEEP_MODE_CMD_PROCESSED_EVENTID
+<7>[ 6571.573822] ath6kl: ath6kl_cfg80211_scan_complete_event: status aborted
+<7>[ 6571.634802] ath6kl: wow mode resume
+<7>[ 6571.634831] ath6kl: wmi tx id 66 len 8 flag 0
+<7>[ 6571.634872] ath6kl: wmi tx id 8 len 20 flag 0
+<7>[ 6571.634889] ath6kl: wmi tx id 11 len 4 flag 0
+<7>[ 6571.634906] ath6kl: wmi tx id 12 len 4 flag 0
+<7>[ 6571.634922] ath6kl: wmi tx id 61481 len 1 flag 0
+<7>[ 6571.634944] ath6kl: (wow) dest mac:d8_e7:75, src mac:d8_e7:75, type/len :0800
+<7>[ 6571.635442] ath6kl: wmi rx id 4167 len 0
+<7>[ 6571.635457] ath6kl: WMI_SET_HOST_SLEEP_MODE_CMD_PROCESSED_EVENTID
+<6>[ 6571.669622] active wake lock ath6kl_suspend_wl, time left 97
+<7>[ 6572.031101] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6572.031154] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6572.031206] ath6kl: wmi tx id 5 len 64 flag 0
+<6>[ 6572.630756] wake lock ath6kl_suspend_wl, expired
+<7>[ 6572.682671] ath6kl: sdio suspend pm_caps 0x3
+<7>[ 6572.682707] ath6kl: ath6kl_cfg80211_suspend(): mode = 2
+<7>[ 6572.682736] ath6kl: wow mode suspend
+<7>[ 6572.682789] ath6kl: wmi tx id 61481 len 1 flag 0
+<7>[ 6572.683169] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6572.683216] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6572.683256] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6572.683292] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6572.683334] ath6kl: wmi tx id 69 len 15 flag 0
+<7>[ 6572.683376] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6572.683414] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6572.683452] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6572.683494] ath6kl: wmi tx id 11 len 4 flag 0
+<7>[ 6572.683532] ath6kl: wmi tx id 12 len 4 flag 0
+<7>[ 6572.683572] ath6kl: wmi tx id 8 len 20 flag 0
+<7>[ 6572.683614] ath6kl: wmi tx id 61463 len 8 flag 0
+<7>[ 6572.683654] ath6kl: ath6kl_wmi_powermode_cmd() pwr_mode = 1
+<7>[ 6572.683687] ath6kl: wmi tx id 18 len 1 flag 0
+<7>[ 6572.683726] ath6kl: wmi tx id 67 len 10 flag 0
+<7>[ 6572.683784] ath6kl: wmi tx id 66 len 8 flag 0
+<7>[ 6572.710839] ath6kl: ath6kl_check_wow_status() received IRQ while we are WoW suspending
+<7>[ 6572.710891] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6572.710921] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6572.710949] ath6kl: wmi event dbglog len 1496
+<7>[ 6572.713766] ath6kl: ath6kl_check_wow_status() received IRQ while we are WoW suspending
+<7>[ 6572.713812] ath6kl: wmi rx id 4167 len 0
+<7>[ 6572.713842] ath6kl: WMI_SET_HOST_SLEEP_MODE_CMD_PROCESSED_EVENTID
+<7>[ 6572.713967] ath6kl: ath6kl_cfg80211_scan_complete_event: status aborted
+<7>[ 6572.775011] ath6kl: wow mode resume
+<7>[ 6572.775037] ath6kl: wmi tx id 66 len 8 flag 0
+<7>[ 6572.775079] ath6kl: wmi tx id 8 len 20 flag 0
+<7>[ 6572.775096] ath6kl: wmi tx id 11 len 4 flag 0
+<7>[ 6572.775112] ath6kl: wmi tx id 12 len 4 flag 0
+<7>[ 6572.775129] ath6kl: wmi tx id 61481 len 1 flag 0
+<7>[ 6572.775151] ath6kl: (wow) dest mac:d8_e7:75, src mac:d8_e7:75, type/len :0800
+<7>[ 6572.776082] ath6kl: wmi rx id 4167 len 0
+<7>[ 6572.776099] ath6kl: WMI_SET_HOST_SLEEP_MODE_CMD_PROCESSED_EVENTID
+<6>[ 6572.804964] active wake lock ath6kl_suspend_wl, time left 97
+<7>[ 6573.171096] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6573.171149] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6573.171202] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6573.683447] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6573.683492] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6573.683524] ath6kl: wmi event dbglog len 1492
+<7>[ 6574.472622] ath6kl: sdio suspend pm_caps 0x3
+<7>[ 6574.472659] ath6kl: ath6kl_cfg80211_suspend(): mode = 2
+<7>[ 6574.472687] ath6kl: wow mode suspend
+<7>[ 6574.472741] ath6kl: wmi tx id 61481 len 1 flag 0
+<7>[ 6574.473117] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6574.473162] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6574.473202] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6574.473241] ath6kl: wmi tx id 70 len 4 flag 0
+<7>[ 6574.473282] ath6kl: wmi tx id 69 len 15 flag 0
+<7>[ 6574.473322] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6574.473362] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6574.473401] ath6kl: wmi tx id 69 len 11 flag 0
+<7>[ 6574.473442] ath6kl: wmi tx id 11 len 4 flag 0
+<7>[ 6574.473481] ath6kl: wmi tx id 12 len 4 flag 0
+<7>[ 6574.473521] ath6kl: wmi tx id 8 len 20 flag 0
+<7>[ 6574.473562] ath6kl: wmi tx id 61463 len 8 flag 0
+<7>[ 6574.473601] ath6kl: ath6kl_wmi_powermode_cmd() pwr_mode = 1
+<7>[ 6574.473636] ath6kl: wmi tx id 18 len 1 flag 0
+<7>[ 6574.473674] ath6kl: wmi tx id 67 len 10 flag 0
+<7>[ 6574.473731] ath6kl: wmi tx id 66 len 8 flag 0
+<7>[ 6574.505239] ath6kl: ath6kl_check_wow_status() received IRQ while we are WoW suspending
+<7>[ 6574.505289] ath6kl: wmi rx id 4167 len 0
+<7>[ 6574.505319] ath6kl: WMI_SET_HOST_SLEEP_MODE_CMD_PROCESSED_EVENTID
+<7>[ 6574.505442] ath6kl: ath6kl_cfg80211_scan_complete_event: status aborted
+<7>[ 6574.575202] ath6kl: wow mode resume
+<7>[ 6574.575229] ath6kl: wmi tx id 66 len 8 flag 0
+<7>[ 6574.575456] ath6kl: wmi tx id 8 len 20 flag 0
+<7>[ 6574.575476] ath6kl: wmi tx id 11 len 4 flag 0
+<7>[ 6574.575492] ath6kl: wmi tx id 12 len 4 flag 0
+<7>[ 6574.575511] ath6kl: wmi tx id 61481 len 1 flag 0
+<7>[ 6574.577942] ath6kl: (wow) wmi event id : 0x1047
+<7>[ 6574.577962] ath6kl: wmi rx id 4167 len 0
+<7>[ 6574.577977] ath6kl: WMI_SET_HOST_SLEEP_MODE_CMD_PROCESSED_EVENTIDmax17043_update_values chip vcell 4107500, chip soc 97
+<6>[ 6574.605542] active wake lock ath6kl_suspend_wl, time left 97
+<7>[ 6575.533059] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6575.535837] ath6kl: wmi rx id 4107 len 237
+<7>[ 6575.535854] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6575.535866] ath6kl: updating target stats
+<7>[ 6578.544524] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6578.547481] ath6kl: wmi rx id 4107 len 237
+<7>[ 6578.547519] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6578.547551] ath6kl: updating target stats
+<7>[ 6581.561022] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6581.563989] ath6kl: wmi rx id 4107 len 237
+<7>[ 6581.564027] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6581.564059] ath6kl: updating target stats
+<7>[ 6582.108776] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6582.108821] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6582.108851] ath6kl: wmi event dbglog len 1496
+<7>[ 6582.500884] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6582.500941] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6582.500987] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6582.621016] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6582.621071] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6582.621119] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6584.569234] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6584.572207] ath6kl: wmi rx id 4107 len 237
+<7>[ 6584.572246] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6584.572277] ath6kl: updating target stats
+<7>[ 6587.503864] ath6kl: wmi rx id 4103 len 4
+<7>[ 6587.503906] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6587.577429] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6587.580387] ath6kl: wmi rx id 4107 len 237
+<7>[ 6587.580426] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6587.580456] ath6kl: updating target stats
+<7>[ 6587.623849] ath6kl: wmi rx id 4103 len 4
+<7>[ 6587.623887] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6590.585666] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6590.588674] ath6kl: wmi rx id 4107 len 237
+<7>[ 6590.588711] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6590.588742] ath6kl: updating target stats
+<7>[ 6592.149266] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6592.149322] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6592.149367] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6592.246376] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6592.246426] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6592.246472] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6593.594189] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6593.597129] ath6kl: wmi rx id 4107 len 237
+<7>[ 6593.597167] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6593.597199] ath6kl: updating target stats
+<7>[ 6596.601356] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6596.604289] ath6kl: wmi rx id 4107 len 237
+<7>[ 6596.604329] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6596.604359] ath6kl: updating target stats
+<7>[ 6597.154606] ath6kl: wmi rx id 4103 len 4
+<7>[ 6597.154649] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6597.249359] ath6kl: wmi rx id 4103 len 4
+<7>[ 6597.249402] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6597.250847] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6597.250901] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6597.250946] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6597.253874] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6597.253916] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6597.253946] ath6kl: wmi event dbglog len 1500
+<7>[ 6599.609501] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6599.612459] ath6kl: wmi rx id 4107 len 237
+<7>[ 6599.612497] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6599.612529] ath6kl: updating target stats
+<7>[ 6602.075914] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6602.075972] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6602.076021] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6602.617669] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6602.620622] ath6kl: wmi rx id 4107 len 237
+<7>[ 6602.620661] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6602.620789] ath6kl: updating target stats
+<7>[ 6605.625914] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6605.628916] ath6kl: wmi rx id 4107 len 237
+<7>[ 6605.628954] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6605.628986] ath6kl: updating target stats
+<7>[ 6607.076709] ath6kl: wmi rx id 4103 len 4
+<7>[ 6607.076752] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6607.253701] ath6kl: wmi rx id 4103 len 4
+<7>[ 6607.253746] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6608.634139] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6608.637092] ath6kl: wmi rx id 4107 len 237
+<7>[ 6608.637131] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6608.637161] ath6kl: updating target stats
+<7>[ 6611.641314] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6611.644302] ath6kl: wmi rx id 4107 len 237
+<7>[ 6611.644339] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6611.644371] ath6kl: updating target stats
+<7>[ 6612.111874] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6612.111942] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6612.111989] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6612.214639] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6612.214692] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6612.214739] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6614.647316] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6614.650322] ath6kl: wmi rx id 4107 len 237
+<7>[ 6614.650362] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6614.650392] ath6kl: updating target stats
+<7>[ 6617.114936] ath6kl: wmi rx id 4103 len 4
+<7>[ 6617.114981] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6617.217644] ath6kl: wmi rx id 4103 len 4
+<7>[ 6617.217681] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6617.435589] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6617.435634] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6617.435666] ath6kl: wmi event dbglog len 1496
+<7>[ 6617.655721] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6617.658642] ath6kl: wmi rx id 4107 len 237
+<7>[ 6617.658679] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6617.658711] ath6kl: updating target stats
+<7>[ 6620.663941] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6620.666904] ath6kl: wmi rx id 4107 len 237
+<7>[ 6620.666941] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6620.666972] ath6kl: updating target stats
+<7>[ 6622.147096] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6622.147154] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6622.147201] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6622.249531] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6622.249584] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6622.249629] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6623.672592] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6623.675517] ath6kl: wmi rx id 4107 len 237
+<7>[ 6623.675556] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6623.675587] ath6kl: updating target stats
+<7>[ 6626.680216] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6626.683189] ath6kl: wmi rx id 4107 len 237
+<7>[ 6626.683227] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6626.683259] ath6kl: updating target stats
+<7>[ 6627.150084] ath6kl: wmi rx id 4103 len 4
+<7>[ 6627.150129] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6627.252467] ath6kl: wmi rx id 4103 len 4
+<7>[ 6627.252511] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6629.688501] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6629.691476] ath6kl: wmi rx id 4107 len 237
+<7>[ 6629.691514] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6629.691546] ath6kl: updating target stats
+<7>[ 6632.184904] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6632.184962] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6632.185007] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6632.195724] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6632.195776] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6632.195821] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6632.196582] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6632.196619] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6632.196651] ath6kl: wmi event dbglog len 1500
+<7>[ 6632.697691] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6632.700832] ath6kl: wmi rx id 4107 len 237
+<7>[ 6632.700872] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6632.700902] ath6kl: updating target stats
+<7>[ 6634.741444] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6634.741489] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6634.741521] ath6kl: wmi event dbglog len 1496
+<7>[ 6634.804664] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6634.804699] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6634.804727] ath6kl: wmi event dbglog len 1492
+<7>[ 6634.926192] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6634.926232] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6634.926261] ath6kl: wmi event dbglog len 1500
+<7>[ 6634.993546] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6634.993584] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6634.993616] ath6kl: wmi event dbglog len 1492
+<7>[ 6635.111331] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6635.111354] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6635.111367] ath6kl: wmi event dbglog len 1496
+<7>[ 6635.184546] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6635.184569] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6635.184582] ath6kl: wmi event dbglog len 1492
+<7>[ 6635.296651] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6635.296672] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6635.296686] ath6kl: wmi event dbglog len 1496
+<7>[ 6635.358114] ath6kl: wmi rx id 4104 len 8
+<7>[ 6635.358132] ath6kl: WMI_NEIGHBOR_REPORT_EVENTID
+<7>[ 6637.185991] ath6kl: wmi rx id 4103 len 4
+<7>[ 6637.186034] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6637.196567] ath6kl: wmi rx id 4103 len 4
+<7>[ 6637.196611] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6637.200861] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6637.200917] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6637.200962] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6637.203891] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6637.203929] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6637.203961] ath6kl: wmi event dbglog len 1496
+<7>[ 6642.204064] ath6kl: wmi rx id 4103 len 4
+<7>[ 6642.204107] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6642.217241] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6642.217296] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6642.217341] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6642.319769] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6642.319821] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6642.319867] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6647.220369] ath6kl: wmi rx id 4103 len 4
+<7>[ 6647.220412] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6647.322931] ath6kl: wmi rx id 4103 len 4
+<7>[ 6647.322972] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6652.252501] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6652.252559] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6652.252604] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6652.355031] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6652.355082] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6652.355129] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6657.255456] ath6kl: wmi rx id 4103 len 4
+<7>[ 6657.255499] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6657.358009] ath6kl: wmi rx id 4103 len 4
+<7>[ 6657.358051] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6662.241816] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6662.241866] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6662.241911] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6662.249546] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6662.249597] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6662.249642] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6662.250411] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6662.250447] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6662.250479] ath6kl: wmi event dbglog len 1496
+<7>[ 6667.242787] ath6kl: wmi rx id 4103 len 4
+<7>[ 6667.242831] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6667.250547] ath6kl: wmi rx id 4103 len 4
+<7>[ 6667.250589] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6672.322804] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6672.322859] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6672.322904] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6672.425206] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6672.425257] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6672.425304] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6677.325784] ath6kl: wmi rx id 4103 len 4
+<7>[ 6677.325821] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6677.428219] ath6kl: wmi rx id 4103 len 4
+<7>[ 6677.428262] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6677.430864] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6677.430919] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6677.430964] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6682.460356] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6682.460412] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6682.460461] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6687.433722] ath6kl: wmi rx id 4103 len 4
+<7>[ 6687.433764] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6687.463382] ath6kl: wmi rx id 4103 len 4
+<7>[ 6687.463424] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6692.187167] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6692.187212] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6692.187244] ath6kl: wmi event dbglog len 1492
+<7>[ 6692.392866] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6692.392917] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6692.392962] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6692.495457] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6692.495509] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6692.495554] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6695.424487] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6695.424527] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6695.424559] ath6kl: wmi event dbglog len 1496
+<7>[ 6695.525887] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6695.525904] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6695.525917] ath6kl: wmi event dbglog len 1492
+<7>[ 6695.648542] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6695.648581] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6695.648611] ath6kl: wmi event dbglog len 1500
+<7>[ 6695.711264] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6695.711306] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6695.711337] ath6kl: wmi event dbglog len 1500
+<7>[ 6695.834182] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6695.834224] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6695.834254] ath6kl: wmi event dbglog len 1496
+<7>[ 6695.896767] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6695.896804] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6695.896834] ath6kl: wmi event dbglog len 1500
+<7>[ 6696.019349] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6696.019386] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6696.019416] ath6kl: wmi event dbglog len 1500
+<7>[ 6696.081177] ath6kl: wmi rx id 4104 len 8
+<7>[ 6696.081214] ath6kl: WMI_NEIGHBOR_REPORT_EVENTID
+<7>[ 6696.591157] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6696.591199] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6696.591229] ath6kl: wmi event dbglog len 1492
+<7>[ 6697.395809] ath6kl: wmi rx id 4103 len 4
+<7>[ 6697.395849] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6697.498376] ath6kl: wmi rx id 4103 len 4
+<7>[ 6697.498419] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6702.428207] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6702.428274] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6702.428319] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6702.530644] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6702.530762] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6702.530809] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6707.431147] ath6kl: wmi rx id 4103 len 4
+<7>[ 6707.431186] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6707.533601] ath6kl: wmi rx id 4103 len 4
+<7>[ 6707.533644] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6712.463236] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6712.463302] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6712.463347] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6712.565797] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6712.565889] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6712.565937] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6717.466302] ath6kl: wmi rx id 4103 len 4
+<7>[ 6717.466344] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6717.568847] ath6kl: wmi rx id 4103 len 4
+<7>[ 6717.568889] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6717.570862] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6717.570916] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6717.570961] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6717.684637] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6717.684679] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6717.684709] ath6kl: wmi event dbglog len 1492
+<7>[ 6722.401674] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6722.401729] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6722.401777] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6724.981327] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6724.984074] ath6kl: wmi rx id 4107 len 237
+<7>[ 6724.984097] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6724.984109] ath6kl: updating target stats
+<7>[ 6726.593377] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6726.593416] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6726.593444] ath6kl: wmi event dbglog len 1496
+<7>[ 6727.402551] ath6kl: wmi rx id 4103 len 4
+<7>[ 6727.402596] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6727.989119] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6727.991876] ath6kl: wmi rx id 4107 len 237
+<7>[ 6727.991892] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6727.991904] ath6kl: updating target stats
+<7>[ 6730.995671] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6730.996422] ath6kl: wmi rx id 4107 len 237
+<7>[ 6730.996442] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6730.996457] ath6kl: updating target stats
+<7>[ 6732.533626] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6732.533684] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6732.533732] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6734.001316] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6734.004306] ath6kl: wmi rx id 4107 len 237
+<7>[ 6734.004331] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6734.004347] ath6kl: updating target stats
+<7>[ 6737.011282] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6737.014219] ath6kl: wmi rx id 4107 len 237
+<7>[ 6737.014257] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6737.014289] ath6kl: updating target stats
+<7>[ 6737.536639] ath6kl: wmi rx id 4103 len 4
+<7>[ 6737.536682] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6737.573667] ath6kl: wmi rx id 4103 len 4
+<7>[ 6737.573704] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6740.019306] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6740.022147] ath6kl: wmi rx id 4107 len 237
+<7>[ 6740.022176] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6740.022191] ath6kl: updating target stats
+<7>[ 6742.568752] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6742.568811] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6742.568856] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6742.671331] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6742.671389] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6742.671436] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6743.031081] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6743.034024] ath6kl: wmi rx id 4107 len 237
+<7>[ 6743.034062] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6743.034092] ath6kl: updating target stats
+<7>[ 6746.041076] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6746.044056] ath6kl: wmi rx id 4107 len 237
+<7>[ 6746.044094] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6746.044126] ath6kl: updating target stats
+<7>[ 6747.571732] ath6kl: wmi rx id 4103 len 4
+<7>[ 6747.571777] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6747.674239] ath6kl: wmi rx id 4103 len 4
+<7>[ 6747.674284] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6748.813899] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6748.813924] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6748.813937] ath6kl: wmi event dbglog len 1500
+<7>[ 6748.820852] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6748.820876] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6748.820896] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6749.048747] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6749.049986] ath6kl: wmi rx id 4107 len 237
+<7>[ 6749.050019] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6749.050047] ath6kl: updating target stats
+<7>[ 6752.055602] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6752.058566] ath6kl: wmi rx id 4107 len 237
+<7>[ 6752.058606] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6752.058636] ath6kl: updating target stats
+<7>[ 6752.808726] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6752.808786] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6752.808834] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6755.064141] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6755.067097] ath6kl: wmi rx id 4107 len 237
+<7>[ 6755.067136] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6755.067166] ath6kl: updating target stats
+<7>[ 6756.079252] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6756.079297] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.079329] ath6kl: wmi event dbglog len 1500
+<7>[ 6756.189577] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6756.189612] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.189642] ath6kl: wmi event dbglog len 1496
+<7>[ 6756.310269] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6756.310312] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.310344] ath6kl: wmi event dbglog len 1496
+<7>[ 6756.373741] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6756.373776] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.373804] ath6kl: wmi event dbglog len 1496
+<7>[ 6756.495344] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6756.495389] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.495419] ath6kl: wmi event dbglog len 1500
+<7>[ 6756.565942] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6756.565976] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.566006] ath6kl: wmi event dbglog len 1496
+<7>[ 6756.680632] ath6kl: wmi rx id 4112 len 1496
+<7>[ 6756.680769] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.680806] ath6kl: wmi event dbglog len 1492
+<7>[ 6756.744997] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6756.745032] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6756.745062] ath6kl: wmi event dbglog len 1496
+<7>[ 6756.803839] ath6kl: wmi rx id 4104 len 8
+<7>[ 6756.803871] ath6kl: WMI_NEIGHBOR_REPORT_EVENTID
+<7>[ 6757.811834] ath6kl: wmi rx id 4103 len 4
+<7>[ 6757.811877] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6758.072401] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6758.075349] ath6kl: wmi rx id 4107 len 237
+<7>[ 6758.075387] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6758.075417] ath6kl: updating target stats
+<7>[ 6761.079814] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6761.082817] ath6kl: wmi rx id 4107 len 237
+<7>[ 6761.082856] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6761.082886] ath6kl: updating target stats
+<7>[ 6762.639142] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6762.639201] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6762.639249] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6762.642107] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6762.642147] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6762.642179] ath6kl: wmi event dbglog len 1496
+<7>[ 6764.088691] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6764.091639] ath6kl: wmi rx id 4107 len 237
+<7>[ 6764.091677] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6764.091707] ath6kl: updating target stats
+<7>[ 6767.096864] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6767.099821] ath6kl: wmi rx id 4107 len 237
+<7>[ 6767.099859] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6767.099889] ath6kl: updating target stats
+<7>[ 6767.642167] ath6kl: wmi rx id 4103 len 4
+<7>[ 6767.642211] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6768.823579] ath6kl: wmi rx id 4103 len 4
+<7>[ 6768.823622] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6770.104387] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6770.107356] ath6kl: wmi rx id 4107 len 237
+<7>[ 6770.107394] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6770.107424] ath6kl: updating target stats
+<7>[ 6772.571852] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6772.571917] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6772.571962] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6772.674239] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6772.674296] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6772.674342] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6773.112832] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6773.115782] ath6kl: wmi rx id 4107 len 237
+<7>[ 6773.115821] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6773.115852] ath6kl: updating target stats
+<7>[ 6776.121452] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6776.124429] ath6kl: wmi rx id 4107 len 237
+<7>[ 6776.124467] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6776.124499] ath6kl: updating target stats
+<7>[ 6777.574967] ath6kl: wmi rx id 4103 len 4
+<7>[ 6777.575011] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6777.677116] ath6kl: wmi rx id 4103 len 4
+<7>[ 6777.677196] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6779.130216] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6779.132931] ath6kl: wmi rx id 4107 len 237
+<7>[ 6779.132947] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6779.132959] ath6kl: updating target stats
+<7>[ 6782.137501] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6782.140467] ath6kl: wmi rx id 4107 len 237
+<7>[ 6782.140506] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6782.140536] ath6kl: updating target stats
+<7>[ 6782.587169] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6782.587226] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6782.587271] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6782.591689] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6782.591739] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6782.591787] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6782.803064] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6782.803107] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6782.803139] ath6kl: wmi event dbglog len 1496
+<7>[ 6785.145774] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6785.148751] ath6kl: wmi rx id 4107 len 237
+<7>[ 6785.148789] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6785.148819] ath6kl: updating target stats
+<7>[ 6787.588136] ath6kl: wmi rx id 4103 len 4
+<7>[ 6787.588179] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6787.592577] ath6kl: wmi rx id 4103 len 4
+<7>[ 6787.592621] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6788.154064] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6788.157024] ath6kl: wmi rx id 4107 len 237
+<7>[ 6788.157062] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6788.157092] ath6kl: updating target stats
+<7>[ 6791.162586] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6791.165599] ath6kl: wmi rx id 4107 len 237
+<7>[ 6791.165636] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6791.165667] ath6kl: updating target stats
+<7>[ 6792.643731] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6792.643789] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6792.643834] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6792.746056] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6792.746106] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6792.746154] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6794.171299] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6794.174039] ath6kl: wmi rx id 4107 len 237
+<7>[ 6794.174077] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6794.174107] ath6kl: updating target stats
+<7>[ 6797.179231] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6797.180067] ath6kl: wmi rx id 4107 len 237
+<7>[ 6797.180106] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6797.180137] ath6kl: updating target stats
+<7>[ 6797.749176] ath6kl: wmi rx id 4103 len 4
+<7>[ 6797.749221] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6800.185731] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6800.188711] ath6kl: wmi rx id 4107 len 237
+<7>[ 6800.188751] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6800.188781] ath6kl: updating target stats
+<7>[ 6802.646829] ath6kl: wmi rx id 4103 len 4
+<7>[ 6802.646872] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6802.677129] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6802.677187] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6802.677232] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6802.779169] ath6kl: wmi rx id 4112 len 1504
+<7>[ 6802.779207] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6802.779239] ath6kl: wmi event dbglog len 1500
+<7>[ 6802.779792] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6802.779841] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6802.779889] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6803.194041] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6803.197004] ath6kl: wmi rx id 4107 len 237
+<7>[ 6803.197044] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6803.197074] ath6kl: updating target stats
+<7>[ 6806.202234] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6806.205202] ath6kl: wmi rx id 4107 len 237
+<7>[ 6806.205239] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6806.205271] ath6kl: updating target stats
+<7>[ 6807.680289] ath6kl: wmi rx id 4103 len 4
+<7>[ 6807.680334] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6807.785107] ath6kl: wmi rx id 4103 len 4
+<7>[ 6807.785151] ath6kl: WMI_PSTREAM_TIMEOUT_EVENTID
+<7>[ 6808.823394] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6808.823452] ath6kl: sending create_pstream_cmd: ac=0  tsid:255
+<7>[ 6808.823497] ath6kl: wmi tx id 5 len 64 flag 0
+<7>[ 6809.211101] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6809.214074] ath6kl: wmi rx id 4107 len 237
+<7>[ 6809.214114] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6809.214144] ath6kl: updating target stats
+<7>[ 6812.215634] ath6kl: wmi tx id 16 len 0 flag 0
+<7>[ 6812.218611] ath6kl: wmi rx id 4107 len 237
+<7>[ 6812.218649] ath6kl: WMI_REPORT_STATISTICS_EVENTID
+<7>[ 6812.218679] ath6kl: updating target stats
+<7>[ 6812.712237] ath6kl: wmi rx id 4112 len 1500
+<7>[ 6812.712282] ath6kl: WMI_EXTENSION_EVENTID
+<7>[ 6812.712314] ath6kl: wmi event dbglog len 1496
+<7>[ 6812.814754] ath6kl: TSRS IE enabled::MinPhy 0->NominalPhy ===> 0
+<7>[ 6812.814809] ath6kl: sending create_pstream_cmd: ac=3  tsid:255
+<7>[ 6812.814857] ath6kl: wmi tx id 5 len 64 flag 0
